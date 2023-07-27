@@ -1,0 +1,12 @@
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\bin\Debug\net7.0\KarlMaster.Core.deps.json
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\bin\Debug\net7.0\KarlMaster.Core.dll
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\bin\Debug\net7.0\KarlMaster.Core.pdb
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\obj\Debug\net7.0\KarlMaster.Core.csproj.AssemblyReference.cache
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\obj\Debug\net7.0\KarlMaster.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\obj\Debug\net7.0\KarlMaster.Core.AssemblyInfoInputs.cache
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\obj\Debug\net7.0\KarlMaster.Core.AssemblyInfo.cs
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\obj\Debug\net7.0\KarlMaster.Core.csproj.CoreCompileInputs.cache
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\obj\Debug\net7.0\KarlMaster.Core.dll
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\obj\Debug\net7.0\refint\KarlMaster.Core.dll
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\obj\Debug\net7.0\KarlMaster.Core.pdb
+D:\C sharp\Web\KarlMaster\KarlMaster.Core\obj\Debug\net7.0\ref\KarlMaster.Core.dll

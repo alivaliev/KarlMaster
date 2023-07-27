@@ -1,0 +1,15 @@
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\bin\Debug\net7.0\KarlMaster.Entities.deps.json
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\bin\Debug\net7.0\KarlMaster.Entities.dll
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\bin\Debug\net7.0\KarlMaster.Entities.pdb
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\obj\Debug\net7.0\KarlMaster.Entities.csproj.AssemblyReference.cache
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\obj\Debug\net7.0\KarlMaster.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\obj\Debug\net7.0\KarlMaster.Entities.AssemblyInfoInputs.cache
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\obj\Debug\net7.0\KarlMaster.Entities.AssemblyInfo.cs
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\obj\Debug\net7.0\KarlMaster.Entities.csproj.CoreCompileInputs.cache
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\obj\Debug\net7.0\KarlMaster.Entities.dll
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\obj\Debug\net7.0\refint\KarlMaster.Entities.dll
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\obj\Debug\net7.0\KarlMaster.Entities.pdb
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\obj\Debug\net7.0\ref\KarlMaster.Entities.dll
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\bin\Debug\net7.0\KarlMaster.Core.dll
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\bin\Debug\net7.0\KarlMaster.Core.pdb
+D:\C sharp\Web\KarlMaster\KarlMaster.Entities\obj\Debug\net7.0\KarlMaster.Entities.csproj.CopyComplete

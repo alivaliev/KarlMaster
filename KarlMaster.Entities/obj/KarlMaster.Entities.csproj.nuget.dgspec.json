@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.Entities\\KarlMaster.Entities.csproj": {}
+  },
+  "projects": {
+    "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.Core\\KarlMaster.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.Core\\KarlMaster.Core.csproj",
+        "projectName": "KarlMaster.Core",
+        "projectPath": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.Core\\KarlMaster.Core.csproj",
+        "packagesPath": "C:\\Users\\alive\\.nuget\\packages\\",
+        "outputPath": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alive\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.Entities\\KarlMaster.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.Entities\\KarlMaster.Entities.csproj",
+        "projectName": "KarlMaster.Entities",
+        "projectPath": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.Entities\\KarlMaster.Entities.csproj",
+        "packagesPath": "C:\\Users\\alive\\.nuget\\packages\\",
+        "outputPath": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alive\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.Core\\KarlMaster.Core.csproj": {
+                "projectPath": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.Core\\KarlMaster.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
