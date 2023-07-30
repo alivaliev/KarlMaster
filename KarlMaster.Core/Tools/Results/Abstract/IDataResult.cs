@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KarlMaster.Core.Tools.Results.Abstract
 {
-    public interface IDataResult<T>
+    public interface IDataResult<T> : IResult
     {
         public T Data { get; }
     }

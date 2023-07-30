@@ -16,6 +16,10 @@ builder.Services.AddDefaultIdentity<User>()
 
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
+builder.Services.AddScoped<IProductService, ProductManager>();
+builder.Services.AddScoped<IProductDal, EfProductDal>();
+
+
 builder.Services.AddScoped<AppDbContext>();
 
 

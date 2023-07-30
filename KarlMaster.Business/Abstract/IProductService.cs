@@ -10,6 +10,6 @@ namespace KarlMaster.Business.Abstract
 {
     public interface IProductService
     {
-        IDataResult<List<ProductAdminListDTO>> GetAdminProducts(string userId,string langCode)
+        IDataResult<List<ProductAdminListDTO>> GetDashboardProducts(string userId, string langCode);
     }
 }

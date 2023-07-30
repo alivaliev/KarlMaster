@@ -19,6 +19,10 @@ namespace KarlMaster.WebUI.Controllers
 
         public IActionResult Login()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
         [HttpPost]
@@ -38,6 +42,10 @@ namespace KarlMaster.WebUI.Controllers
         }
         public IActionResult Register()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
         [HttpPost]
@@ -64,6 +72,12 @@ namespace KarlMaster.WebUI.Controllers
                 return RedirectToAction("Index","Home");
             };
             return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Login");
         }
     }
 }

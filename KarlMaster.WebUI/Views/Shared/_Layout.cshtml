@@ -12,6 +12,9 @@
 
     <!-- Favicon  -->
     <link rel="icon" href="~/assets/img/core-img/favicon.ico">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="~/assets/css/core-style.css">
@@ -105,10 +108,26 @@
                             <div class="top_single_area d-flex align-items-center">
                                 <!-- Logo Area -->
                                 <div class="top_logo">
-                                    <a href="#"><img src="img/core-img/logo.png" alt=""></a>
+                                    <a href="#"><img src="~/assets/img/core-img/logo.png" alt=""></a>
                                 </div>
                                 <!-- Cart & Menu Area -->
                                 <div class="header-cart-menu d-flex align-items-center ml-auto">
+
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        @(await Component.InvokeAsync("UserAuth"));
+                                        
+                                    }else
+                                    {
+                                        <div id="userLogin" class="m-3">
+                                            <a class="m-2 userIcon" href="#"><i class="fa-regular fa-user"></i></a>
+                                            <ul class="loginRegister">
+                                                <li class="sign-in-up"><a href="/auth/login">Sign in</a></li>
+                                                <li class="sign-in-up"><a href="/auth/register">Sign up</a></li>
+                                            </ul>
+                                        </div>
+                                    }
+                                    
                                     <!-- Cart Area -->
                                     <div class="cart">
                                         <a href="#" id="header-cart-btn" target="_blank"><span class="cart_quantity">2</span> <i class="ti-bag"></i> Your Bag $20</a>

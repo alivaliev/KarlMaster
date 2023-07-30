@@ -43,9 +43,10 @@ namespace KarlMaster.DataAccess.Concrete.EntityFramework
 
                 return new ErrorDataResult<List<ProductAdminListDTO>>(ex.Message);
             }
-           
+
 
         }
 
-       
+
+    }
 }

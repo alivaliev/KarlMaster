@@ -140,6 +140,11 @@
         $('body').toggleClass('cart-data-open');
     })
 
+    $('#userLogin').on('click', function () {
+        $('.loginRegister').toggleClass('loginRegisterOpen');
+    })
+    
+
     // :: 8.0 Side Menu Active Code
     $('#sideMenuBtn').on('click', function () {
         $('#wrapper').toggleClass('karl-side-menu-open');
@@ -208,3 +213,6 @@
     }
 
 })(jQuery);
+
+
+

@@ -395,6 +395,25 @@ img {
     padding-right: 5px;
 }
 
+
+.loginRegister{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    display: none;
+}
+
+.loginRegisterOpen{
+    display: block;
+}
+
+
+
+.sign-in-up{
+    padding: 3px;
+}
+
+
 .cart_quantity {
     background-color: #ff084e;
     border-radius: 50%;
