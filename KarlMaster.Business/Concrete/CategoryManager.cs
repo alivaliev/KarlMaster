@@ -1,6 +1,9 @@
 ﻿using KarlMaster.Business.Abstract;
+using KarlMaster.Core.Tools.Results.Abstract;
+using KarlMaster.Core.Tools.Results.Concrete;
 using KarlMaster.DataAccess.Abstract;
 using KarlMaster.Entities.Concrete;
+using KarlMaster.Entities.DTOs.CategoryDTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,32 +21,37 @@ namespace KarlMaster.Business.Concrete
             _categoryDal = categoryDal;
         }
 
-        public void AddCategory(Category category)
+        public IResult AddCategory(CategoryAddDTO category)
+        {
+            try
+            {
+                _categoryDal.AddCategory(category);
+                return new SuccessResult();
+                
+            }
+            catch (Exception ex)
+            {
+                return new ErrorResult(ex.Message);
+            }
+        }
+
+        public IResult DeleteCategory(Category category)
         {
             throw new NotImplementedException();
         }
 
-        public void AddCtegory(Category category)
+        public IDataResult <List<CategoryHomeListDTO>> GetCategories(string langcode)
         {
-            _categoryDal.Add(category);
+            var result = _categoryDal.GetCategoriesByLanguage(langcode);
+            return new SuccessDataResult<List<CategoryHomeListDTO>>(result);
         }
 
-        public void DeleteCategory(Category category)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Category> GetCategories(string langcode)
+        public IDataResult <List<Category>> GetNavbarCategories(string langcode)
         {
             throw new NotImplementedException();
         }
 
-        public List<Category> GetNavbarCategories(string langcode)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void UpdateCategory(Category category)
+        public IResult UpdateCategory(Category category)
         {
             throw new NotImplementedException();
         }

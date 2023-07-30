@@ -2,14 +2,23 @@ using KarlMaster.Business.Abstract;
 using KarlMaster.Business.Concrete;
 using KarlMaster.DataAccess.Abstract;
 using KarlMaster.DataAccess.Concrete.EntityFramework;
+using KarlMaster.Entities.Concrete;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDefaultIdentity<User>()
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<AppDbContext>();
+
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
+builder.Services.AddScoped<AppDbContext>();
+
+
 
 var app = builder.Build();
 

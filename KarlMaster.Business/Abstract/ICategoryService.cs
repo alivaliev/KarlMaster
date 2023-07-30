@@ -1,4 +1,7 @@
-﻿using KarlMaster.Entities.Concrete;
+﻿using KarlMaster.Core.Tools.Results.Abstract;
+using KarlMaster.Core.Tools.Results.Concrete;
+using KarlMaster.Entities.Concrete;
+using KarlMaster.Entities.DTOs.CategoryDTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +12,10 @@ namespace KarlMaster.Business.Abstract
 {
     public interface ICategoryService
     {
-        void AddCategory(Category category);
-        void DeleteCategory(Category category);
-        void UpdateCategory(Category category);
-        List<Category> GetCategories(string langcode);
-        List<Category> GetNavbarCategories(string langcode);
+        IResult AddCategory(CategoryAddDTO category);
+        IResult DeleteCategory(Category category);
+        IResult UpdateCategory(Category category);
+        IDataResult <List<CategoryHomeListDTO>> GetCategories(string langcode);
+        IDataResult <List<Category>> GetNavbarCategories(string langcode);
     }
 }

@@ -7405,6 +7405,190 @@
       "PackagePath": "staticwebassets\\admin\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\css\\core-style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\core-style.css"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\css\\nouislider.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nouislider.css"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\bg-img\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-img\\bg-1.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\bg-img\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-img\\bg-2.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\bg-img\\bg-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-img\\bg-3.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\bg-img\\bg-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-img\\bg-4.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\bg-img\\bg-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-img\\bg-5.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\bg-img\\tes-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-img\\tes-1.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\core-img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\core-img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\core-img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\core-img\\logo.png"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-10.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-11.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-12.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-4.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-5.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-6.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-7.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-8.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\img\\product-img\\product-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product-img\\product-9.jpg"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\js\\active.js",
+      "PackagePath": "staticwebassets\\assets\\js\\active.js"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\js\\jquery\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\C sharp\\Web\\KarlMaster\\KarlMaster.WebUI\\wwwroot\\assets\\style.css",
+      "PackagePath": "staticwebassets\\assets\\style.css"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.KarlMaster.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

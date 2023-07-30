@@ -1,11 +1,19 @@
-﻿using KarlMaster.Entities.DTOs.CategoryDTOs;
+﻿using KarlMaster.Business.Abstract;
+using KarlMaster.Entities.DTOs.CategoryDTOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KarlMaster.WebUI.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
-        [Area("Admin")]
+        private readonly ICategoryService _categoryService;
+
+        public CategoryController(ICategoryService categoryService)
+        {
+            _categoryService = categoryService;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -17,7 +25,13 @@ namespace KarlMaster.WebUI.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Create(CategoryAddDTO category)
         {
-            return View();
+            var result = _categoryService.AddCategory(category);
+            if (result.Success)
+            {
+            return RedirectToAction("Index");
+
+            }
+            return View(category);
         }
     }
 }

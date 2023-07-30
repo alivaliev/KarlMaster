@@ -19,7 +19,8 @@ namespace KarlMaster.WebUI.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var categories = _categoryService.GetCategories("Ru");
+            return View(categories.Data);
         }
 
         public IActionResult Privacy()

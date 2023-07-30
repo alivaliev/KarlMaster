@@ -12,5 +12,6 @@ namespace KarlMaster.DataAccess.Abstract
     public interface ICategoryDal : IRepositoryBase<Category>
     {
         List<CategoryHomeListDTO> GetCategoriesByLanguage(string langCode);
+        Task<bool> AddCategory(CategoryAddDTO categoryAddDTO);
     }
 }
